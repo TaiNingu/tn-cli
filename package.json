@@ -1,0 +1,25 @@
+{
+  "name": "tng-cli",
+  "version": "1.0.2",
+  "description": "user By Myself",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^5.2.0"
+  },
+  "bin": {
+    "tn": "bin/tn",
+    "tn-add": "bin/tn-add",
+    "tn-delete": "bin/tn-delete",
+    "tn-init": "bin/tn-init",
+    "tn-list": "bin/tn-list"
+  }
+}
